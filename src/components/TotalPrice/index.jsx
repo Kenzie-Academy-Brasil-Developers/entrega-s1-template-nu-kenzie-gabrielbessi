@@ -16,7 +16,7 @@ const TotalPrice = ({ transaction }) => {
     <section className="totalPrice">
       <div className="totalPrice-position">
         <div className="totalPrice-value">
-          <p className="totalPrice-value__text">Valor total:</p>
+          <p className="totalPrice-value__text">Total:</p>
           <span className="span-totalPrice">{sumPrice}</span>
         </div>
         <span className="totalPrice-text">O valor se refere ao saldo</span>
