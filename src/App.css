@@ -1,0 +1,11 @@
+.section-position {
+  display: flex;
+  justify-content: center;
+
+  gap: 4.100069492703266vw;
+}
+
+.section-buttonList {
+  display: flex;
+  flex-direction: column;
+}

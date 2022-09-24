@@ -1,0 +1,118 @@
+label {
+  font-size: 1.520912547528517vh;
+  font-weight: 600;
+  line-height: 22px;
+
+  color: #212529;
+}
+
+.span-padraoForm {
+  font-size: 1.520912547528517vh;
+  font-weight: 400;
+  line-height: 20px;
+
+  color: #868e96;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+  height: 44.48669201520912vh;
+  width: 25.22585128561501vw;
+
+  background: #ffffff;
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+
+  margin-top: 39px;
+}
+
+.form-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input__description {
+  display: flex;
+  width: 21.820708825573316vw;
+  height: 6.692015209125476vh;
+
+  align-items: center;
+  padding: 0px 0.6949270326615705vw;
+
+  background: #f8f9fa;
+  font-size: 1.520912547528517vh;
+
+  border: 2px solid #f8f9fa;
+  border-radius: 8px;
+}
+
+.form-valueType {
+  display: flex;
+  align-items: center;
+
+  gap: 2.5017373175816537vw;
+}
+
+.form-input__value {
+  display: flex;
+  justify-content: space-between;
+  width: 8.895066018068103vw;
+  height: 6.083650190114068vh;
+
+  align-items: center;
+  padding: 0px 0.6949270326615705vw;
+  font-size: 1.520912547528517vh;
+
+  background: #f8f9fa;
+
+  border: 2px solid #f8f9fa;
+  border-radius: 8px;
+}
+
+.form-select__type {
+  display: flex;
+  justify-content: space-between;
+  width: 10.423905489923557vw;
+  height: 6.083650190114068vh;
+
+  align-items: center;
+  padding: 0px 0.6949270326615705vw;
+  font-size: 1.520912547528517vh;
+
+  background: #f8f9fa;
+
+  border: 2px solid #f8f9fa;
+  border-radius: 8px;
+
+  cursor: pointer;
+}
+
+.button-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  width: 21.820708825573316vw;
+  height: 6.083650190114068vh;
+
+  background: #fd377e;
+  border: 2px solid #fd377e;
+
+  font-size: 2.0278833967046896vh;
+  font-weight: 500;
+  line-height: 19px;
+  color: #ffffff;
+
+  border-radius: 8px;
+}
+
+.button-form:hover {
+  cursor: pointer;
+  background: #ff0d66;
+  border: 2px solid #ff0d66;
+}

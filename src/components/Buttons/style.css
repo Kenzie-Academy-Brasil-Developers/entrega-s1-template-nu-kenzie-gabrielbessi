@@ -1,0 +1,77 @@
+.filter {
+  display: flex;
+  align-items: center;
+  gap: 9.937456567060458vw;
+
+  margin-top: 39px;
+}
+
+.filter-text {
+  font-size: 2.0278833967046896vh;
+  font-weight: 700;
+
+  color: #212529;
+}
+
+.filter-buttons {
+  display: flex;
+  flex-direction: row;
+
+  gap: 1.111883252258513vw;
+}
+
+.filter-buttons__todos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+
+  width: 4.794996525364836vw;
+  height: 5.069708491761724vh;
+
+  font-size: 1.7743979721166032vh;
+  font-weight: 600;
+  color: #ffffff;
+
+  background: #fd377e;
+
+  border: 1.4px solid #fd377e;
+  border-radius: 8px;
+}
+
+.filter-buttons__todos:hover {
+  background: #ff0d66;
+  border: 2px solid #ff0d66;
+
+  cursor: pointer;
+}
+
+.buttonAll {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+
+  width: 4.794996525364836vw;
+  height: 5.069708491761724vh;
+
+  font-size: 1.7743979721166032vh;
+  font-weight: 600;
+  color: #343a40;
+
+  background: #e9ecef;
+
+  border: 1.4px solid #e9ecef;
+  border-radius: 8px;
+}
+
+.buttonAll:hover {
+  background: #d6d6d6;
+  border: 1.4px solid #d6d6d6;
+
+  cursor: pointer;
+}
